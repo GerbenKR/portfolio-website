@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Alliance No.1';
+    src: url('AllianceNo1-Medium.eot');
+    src: local('Alliance No.1 Medium'), local('AllianceNo.1-Medium'), url('AllianceNo1-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alliance No.1';
+    src: url('AllianceNo1-ExtraBold.eot');
+    src: local('Alliance No.1 ExtraBold'), local('AllianceNo.1-ExtraBold'), url('AllianceNo1-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alliance No.1';
+    src: url('AllianceNo1-Black.eot');
+    src: local('Alliance No.1 Black'), local('AllianceNo.1-Black'), url('AllianceNo1-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alliance No.1';
+    src: url('AllianceNo1-Light.eot');
+    src: local('Alliance No.1 Light'), local('AllianceNo.1-Light'), url('AllianceNo1-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alliance No.1';
+    src: url('AllianceNo1-Regular.eot');
+    src: local('Alliance No.1 Regular'), local('AllianceNo.1-Regular'), url('AllianceNo1-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alliance No.1';
+    src: url('AllianceNo1-SemiBold.eot');
+    src: local('Alliance No.1 SemiBold'), local('AllianceNo.1-SemiBold'), url('AllianceNo1-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alliance No.1';
+    src: url('AllianceNo1-Bold.eot');
+    src: local('Alliance No.1 Bold'), local('AllianceNo.1-Bold'), url('AllianceNo1-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}

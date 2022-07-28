@@ -1,0 +1,67 @@
+.aboutMe {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    display: flex;
+
+    &__imageHolder {
+        width: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media only screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    &__content {
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__subtitle {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--color-purple);
+        }
+
+        &__description {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        &__info {
+            display: flex;
+            justify-content: space-between;
+
+            &__section {
+                &__item {
+                    margin-top: 20px;
+
+                    &__title {
+                        font-size: 19px;
+                        font-weight: 600;
+                        margin-bottom: 1px;
+                        color: var(--color-purple);
+                    }
+                    &__value {
+                        max-width: 300px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+}
