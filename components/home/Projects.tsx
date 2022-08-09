@@ -15,7 +15,7 @@ export default function Projects() {
 
             <div className={styles.projects__grid}>
                 {projects.map((project, index) => (
-                    <a href={project.url || '#'} target="_blank" rel="noreferrer" key={index} className={styles.projects__grid__item}>
+                    <a href={project.url || '#projects'} target={project.url != null ? '__blank' : ''} rel="noreferrer" key={index} className={styles.projects__grid__item}>
                         <img className={styles.projects__grid__item__image} src={project.image} alt="" />
                         <h1 className={styles.projects__grid__item__title}>{project.title}</h1>
                         <h3 className={styles.projects__grid__item__createdWith}>{project.technologies}</h3>
