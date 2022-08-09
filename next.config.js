@@ -54,10 +54,13 @@ const nextConfig = {
                 destination: 'https://projects.gerbenkr.nl/erik-jan-weerbericht/',
                 permanent: true,
             },
+        ];
+    },
+    async rewrites() {
+        return [
             {
-                source: '/lingo',
-                destination: 'https://lingo.gerbenkr.nl/',
-                permanent: true,
+                source: '/sitemap.xml',
+                destination: '/api/sitemap',
             },
         ];
     },
