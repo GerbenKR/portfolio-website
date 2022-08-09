@@ -12,42 +12,57 @@ const Home: NextPage = () => {
                 <h2 className={styles.projects__list__subtitle}>Open projects</h2>
                 <ul>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://kevinschatbox.nl/chat">
+                        <a className="text" target="_blank" rel="noreferrer" href="/lingo">
+                            Lingo
+                        </a>
+                    </li>
+                    <li className="link">
+                        <a className="text" target="_blank" rel="noreferrer" href="/omrekenen">
+                            Omrekenen
+                        </a>
+                    </li>
+                    <li className="link">
+                        <a className="text" target="_blank" rel="noreferrer" href="/3fm-radioplayer">
                             NPO 3FM Radioplayer Discord Bot
                         </a>
                     </li>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://gerbenkr.nl/radioring">
+                        <a className="text" target="_blank" rel="noreferrer" href="/radioring">
                             RadioRing Leaker
                         </a>
                     </li>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://gerbenkr.nl/whois">
+                        <a className="text" target="_blank" rel="noreferrer" href="/whois">
                             Discord Whois
                         </a>
                     </li>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://gerbenkr.nl/magister">
+                        <a className="text" target="_blank" rel="noreferrer" href="/magister">
                             Magister Auto Week
                         </a>
                     </li>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://gerbenkr.nl/cps">
+                        <a className="text" target="_blank" rel="noreferrer" href="/cps">
                             CPS-counter
                         </a>
                     </li>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://gerbenkr.nl/n-term">
+                        <a className="text" target="_blank" rel="noreferrer" href="/n-term">
                             N-term berekenen
                         </a>
                     </li>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://projects.gerbenkr.nl/qmusic-foute-uur/">
+                        <a className="text" target="_blank" rel="noreferrer" href="/q-foute-uur">
                             Qmusic Foute Uur
                         </a>
                     </li>
                     <li className="link">
-                        <a className="text" target="_blank" rel="noreferrer" href="https://gerbenkr.nl/">
+                        <a className="text" target="_blank" rel="noreferrer" href="/erik-jan-weerbericht">
+                            Erik-Jan&apos;s Weerbericht
+                        </a>
+                    </li>
+                    <li className="link">
+                        <a className="text" target="_blank" rel="noreferrer" href="/">
                             Gerbenkr.nl
                         </a>
                     </li>
