@@ -1,7 +1,5 @@
 import { GridItem, ProjectItem } from './types';
 
-// TODO: move to a cms/api
-
 export const seo = {
     title: "Gerben's Portfolio",
     keywords: 'Gerben, Gerbenkr, Gerbiebor, developer, javascript, projects, radioring, qmusic, discord',
@@ -131,7 +129,6 @@ export const projects: ProjectItem[] = [
         title: 'RadioRing Leaker',
         slug: 'radioring-leaker',
         technologies: 'HTML, SCSS, JavaScript (Nuxt), TypeScript',
-        // description: 'RadioRing Leaker is een website waarop je kan zien hoeveel stemmen elke radioring nominatie had.',
         description: 'Avrotros organiseert jaarlijks de grootste radio awardshow. Mensen kunnen stemmen op meerdere categorieeën op de website van de Avrotors. Maar door een technische fout van de avrotros kon ik bij het aantal stemmen. Toen heb ik RadioRing Leaker gemaakt.',
         image: 'https://i.gerbenkr.nl/images/m4l8kxml7pje.png',
         url: 'https://radioring-leaker.nl/',
@@ -150,7 +147,6 @@ export const projects: ProjectItem[] = [
         title: 'Discord Whois',
         slug: 'discord-whois',
         technologies: 'HTML, SCSS, JavaScript (VueJS), Serverless functions',
-        // description: 'Discord Whois is een simpele website om iemands Discord gegevens te bekijken en te downloaden.',
         description: 'Discord Whois is mijn eerste project waar ik Vue voor heb gebruikt. Discord Whois is een website waarop je Discord gegevens van een gebruiker kan bekijken en downloaden.',
         image: 'https://i.gerbenkr.nl/images/kl1u15dq22rp.png',
         url: 'https://whois.gerbenkr.nl/',
@@ -169,7 +165,6 @@ export const projects: ProjectItem[] = [
         title: 'Kevins Chatbox Discord Bot (3FM)',
         slug: 'kevins-chatbox',
         technologies: 'NodeJS (TypeScript), Discord Bot',
-        // description: 'Een Discord bot voor 3fm.nl/chat. De bot update een now-playing en now-broadcasting kanaal.',
         description: 'Voor 3FM.n/chat bouwde ik een Discord bot die een now-playing en now-broadcasting kanaal update en de de bot speelt 24/7 3fm. ',
         image: 'https://i.gerbenkr.nl/images/mfsv2cm3qj8w.png',
         url: 'https://www.kevinschatbox.nl/chat',
@@ -178,7 +173,7 @@ export const projects: ProjectItem[] = [
     {
         title: 'Startpage',
         slug: 'startpage',
-        technologies: 'HTML, CSS, JavaScript (VueJS)',
+        technologies: 'HTML, CSS, TypeScript (NextJS)',
         description: 'Startpage is een website waar ik verschillende handige modules heb samengevoegd zodat ik een duidelijk overzicht heb.',
         image: 'https://i.gerbenkr.nl/images/l5u5mpn58fp7.png',
         url: null,
