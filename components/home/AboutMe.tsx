@@ -15,7 +15,7 @@ export default function AboutMe() {
             <div className={styles.aboutMe__content}>
                 <h1 className={styles.aboutMe__content__title}>About me</h1>
                 <h2 className={styles.aboutMe__content__subtitle}>Learning software developer from the Netherlands</h2>
-                <p className={styles.aboutMe__content__description}>Hi, i’m Gerben! I’m a young self learning software developer! In the past years i learned myself a lot about html, css, javascript, nodejs and web design. I’m currently in my first year of my Software development study at the Graafschap College.</p>
+                <p className={styles.aboutMe__content__description}>Hi, i’m Gerben! I’m a young self learning software developer! In the past years i learned myself a lot about html, css, javascript, nodejs and web design. I’m currently in my second year of my Software development study at the Graafschap College.</p>
 
                 <div className={styles.aboutMe__content__info}>
                     <div className={styles.aboutMe__content__info__section}>
